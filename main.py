@@ -47,4 +47,5 @@ sample_scaled = scaler.transform(sample)
 prediction = model.predict(sample_scaled)
 print("\nSample Prediction (1=Diabetes, 0=No Diabetes):", int(prediction[0]))
 
-print("\n✅ Project Completed Successfully!")
+print("\n Project Completed Successfully!")
+
